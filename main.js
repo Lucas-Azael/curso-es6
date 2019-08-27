@@ -30,5 +30,3 @@ document.getElementById('novotodo').onclick = function() {
 MinhaLista.mostraUsuario();
 
 var ListaNova = new TodoList();
-
-ListaNova.mostraUsuario();

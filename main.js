@@ -29,4 +29,7 @@ document.getElementById('novotodo').onclick = function() {
 
 MinhaLista.mostraUsuario();
 
+const ListaNova = new TodoList();
+
+ListaNova.mostraUsuario();
 

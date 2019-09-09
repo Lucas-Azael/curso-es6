@@ -50,7 +50,7 @@ function (_List) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(TodoList).call(this)); //Interresante sempre que houver herança, a classe filha chamar a classe mãe
 
-    _this.usuario = 'Lucas';
+    _this.usuario = [];
     return _this;
   }
 
@@ -65,11 +65,7 @@ function (_List) {
 }(List);
 
 var MinhaLista = new TodoList();
-
-document.getElementById('novotodo').onclick = function () {
-  MinhaLista.add('Novo Todo');
-};
-
-MinhaLista.mostraUsuario();
-var ListaNova = new TodoList();
-ListaNova.mostraUsuario();
+var inputElement = document.querySelector('input[name=text]');
+var btnElement = document.querySelector('button');
+var todoText = inputElement.getAttribute;
+btnElement.onclick = MinhaLista.add(todoText);
